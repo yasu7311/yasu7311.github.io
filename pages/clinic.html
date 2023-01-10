@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Clinic</title>
+  <link rel="stylesheet" href="../css/clinic.css">
+</head>
+<body>
+
+<!--  Nabber section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <h2 class="text-dark" pt-1>サワヤカ Clinic</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#services">診療科目</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">当院について</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#docter">医師紹介</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#access">交通アクセス</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#information">お知らせ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero section -->
+<div class="hero vh-100 d-flex align-items-center" id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 mx-auto text-center">
+        <h1 class="display-4">サワヤカ Clinic</h1>
+        <p class="my-3 text-info">患者さんの訴えに真摯に耳を傾け、信頼できる仲間たちと共に、<br>最良の道を一生懸命探していきたい。</p>
+        <!-- <a href="#" class="btn btn-primary me-2">Go page</a> -->
+        <a href="#contact" class="btn btn-outline-light">お問い合わせ</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- service section -->
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto text-center">
+        <h6 class="text-primary">SERVICES</h6>
+        <h1 class="py-3">診 療 科 目</h1>
+        <p class="mb-3">クリニックの医科は患者さんや家族が「生活すること」を大切にしています。</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-4 col-sm-6">
+        <div class="service card-effect">
+          <div class="iconbox">
+            <i class='bx bx-plus-medical'></i>
+          </div>
+          <h5 class="mt-4 mb-2">内　　科</h5>
+          <p>医療施設に従事する医師のうち、内科に属する医師が診療科別で最も多い人数になっています。</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="service card-effect">
+          <div class="iconbox">
+            <i class='bx bx-plus-medical'></i>
+          </div>
+          <h5 class="mt-4 mb-2">外　　科</h5>
+          <p>患者さんの状態を把握するため診療や検査を行い適切な手術の方法を検討します。</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="service card-effect">
+          <div class="iconbox">
+            <i class='bx bx-plus-medical'></i>
+          </div>
+          <h5 class="mt-4 mb-2">整形外科</h5>
+          <p>生活習慣や災害、スポーツ活動によって発生する運動期間（骨・靭帯・筋肉など）のけがや病気を専門に治療する。</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="service card-effect">
+          <div class="iconbox">
+            <i class='bx bx-plus-medical'></i>
+          </div>
+          <h5 class="mt-4 mb-2">リハビリテーション科</h5>
+          <p>運動障害や認知障害を横断的かつ総合的に診療する知識と経験を有し、保険から医療、福祉の分野を広くカバーしています。</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="service card-effect">
+          <div class="iconbox">
+            <i class='bx bx-plus-medical'></i>
+          </div>
+          <h5 class="mt-4 mb-2">調剤薬局</h5>
+          <p>処方箋による調剤、薬の正しい使い方の指導、薬の飲み合わせのチェックなどを行っています。</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="service card-effect">
+          <div class="iconbox">
+            <i class='bx bx-plus-medical'></i>
+          </div>
+          <h5 class="mt-4 mb-2">訪問診療</h5>
+          <p>定期的、且つ、計画的に訪問し、診療、治療、薬の処方、療養上の相談、指導等を行っていきます。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- about section -->
+<section id="about">
+  <div class="row">
+    <div class="col-lg-6 col-md-10 col-img mx-auto"></div>
+    <div class="col-lg-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 pt-4 offset-md-1">
+            <h6 class="text-primary">ABUOT CLINIC</h6>
+            <h1 class="py-3">当院について</h1>
+            <p>医科の外来と在宅医療を行っているクリニックです。患者さんにとって、良質な医療を提供するだけでなく、ここへ来たらなぜかホッとするような、心の安らげる場を目指し、信頼できる仲間たちと共に日々研鑽を積んでいます。</p>
+            <div class="avuot d-flex mt-5">
+              <div class="iconbox me-3">
+                <i class='bx bx-plus-medical'></i>
+              </div>
+              <div>
+                <h5>信　　念</h5>
+                <p>一切妥協せずに最善の医療を提供する。</p>
+              </div>
+            </div>
+            <div class="avuot d-flex mt-5">
+              <div class="iconbox me-3">
+                <i class='bx bx-plus-medical'></i>
+              </div>
+              <div>
+                <h5 >思　い</h5>
+                <p mt-2>患者さんの声に耳を傾けます。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- docter section -->
+<section id="docter">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8 mx-auto text-center">
+        <h6 class="text-primary">DOCTER</h6>
+        <h1 class="py-3">医師紹介</h1>
+        <p class="mb-3">当院に在籍する医師について紹介します。</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-4 col-sm-6 p-center">
+        <div class="docter">
+          <img src="../image/docter1.jpg" alt="内科医">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">内科医</h4>
+              <h6 class="text-white">鈴木　一郎</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 p-center">
+        <div class="docter">
+          <img src="../image/docter3.jpg" alt="整形外科医">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">整形外科医</h4>
+              <h6 class="text-white">佐藤　二郎</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 p-center">
+        <div class="docter">
+          <img src="../image/docter2.jpg" alt="外科医">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">外科医</h4>
+              <h6 class="text-white">山本　太郎</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 p-center">
+        <div class="docter">
+          <img src="../image/docter7.jpg" alt="整形外科医">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">整形外科医</h4>
+              <h6 class="text-white">高橋　英樹</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 p-center">
+        <div class="docter">
+          <img src="../image/docter9.jpg" alt="内科医">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">内科医</h4>
+              <h6 class="text-white">小林　幸子</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 p-center">
+        <div class="docter">
+          <img src="../image/docter8.jpg" alt="外科医">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">外科医</h4>
+              <h6 class="text-white">伊藤　みどり</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- access section -->
+<section id="access" class="py-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto text-center">
+        <h6 class="text-primary">ACCESS</h6>
+        <h1 class="py-3">交通アクセス</h1>
+        <p class="mb-3">当院の所在地を表示します。</p>
+      </div>
+    </div>
+  </div>
+  <div class="accessarea row">
+    <div class="col-lg-6 col-sm-10">
+        <div class="time">
+          <h4 class="timezone">診療時間</h4>
+          <p>9：00 - 17：00<br>12：00 - 13：00<br>休業時間</p>
+        </div>
+    </div>
+    <div class="col-lg-6 col-sm-10">
+        <div class="time">
+          <h4 class="timezone">休 診 日</h4>
+          <p>土曜日・日曜日<br>祝日を含む月曜日〜金曜日</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-10">
+         <div class="time">
+          <h4 class="timezone">診療内容</h4>
+          <p>内科、外科、整形外科<br>リハビリテーション科</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-10">
+        <div class="time">
+          <h4 class="timezone">電　　話</h4>
+          <p class="coll">0120-123-456<br>神奈川県横浜市<br>神奈川区二ツ屋町4-7<br>笹部ビル3F</p>
+        </div>
+      </div>
+    </div>
+    <div class="googlemap">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d812.2693664197144!2d139.63096972192318!3d35.477627132019364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c228a2af00f%3A0xcbdb898a3ee66466!2z44CSMjIxLTA4MjMg56We5aWI5bed55yM5qiq5rWc5biC56We5aWI5bed5Yy65LqM44OE6LC355S677yU4oiS77yXIOesuemDqOODk-ODqw!5e0!3m2!1sja!2sjp!4v1672981355802!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- information section -->
+<section id="information">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto text-center">
+        <h6 class="text-primary">INFORMATION</h6>
+        <h1 class="py-3">お知らせ</h1>
+        <p class="mb-3">当院に関わる情報の提供をします。</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="information card-effect">
+          <div class="image">
+            <img src="../image/medical1.jpg" alt="">
+          </div>
+          <h5 class="mt-4 mb-2">年末年始の休診について</h5>
+          <p>休診日<br>12月30日〜1月3日<br>誠に申し訳ありませが、休ませていただきます。宜しくお願いいたします。</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="information card-effect">
+          <div class="image">
+            <img src="../image/medical3.jpg" alt="">
+          </div>
+          <h5 class="mt-4 mb-2">お問い合わせ</h5>
+          <p>診療やお薬に関して様々な疑問にお答えしていきます。<br>お問い合わせに入力してお送りいただくか、診療の際にお聞きください。</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="information card-effect">
+          <div class="image">
+            <img src="../image/medical2.jpg" alt="">
+          </div>
+          <h5 class="mt-4 mb-2">調剤薬局</h5>
+          <p>当院の調剤と当院以外で出された調剤にも対応いたします。<br>市販薬の販売もしておりますのでお気軽にお声がけください。<br>お薬への質問は薬剤師にお聞きください。
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- contact section -->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto text-center">
+        <h6 class="text-primary">CONTACT</h6>
+        <h1 class="py-3">お問い合わせ</h1>
+        <p class="mb-3">当院への予約及びお問い合わせを入力してください。。</p>
+      </div>
+    </div>
+  </div>
+  <form action="" class="row g-3">
+    <div class="col-md-5 col-sm-10 col-11">
+      <input type="text" class="form-control" placeholder="フルネーム">
+    </div>
+    <div class="col-md-5 col-sm-10 col-11">
+      <input type="text" class="form-control" placeholder="e-mailアドレス">
+    </div>
+    <div class="col-md-10 col-sm-10 col-11">
+      <input type="text" class="form-control" placeholder="予約を入力してください">
+    </div>
+    <div class="col-md-10 col-sm-10 col-11">
+      <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="お問い合わせを入力してください"></textarea>
+    </div>
+    <div class="col-md-10 col-sm-10 col-11 d-grid">
+      <button class="btn btn-primary">送　　　信</button>
+    </div>
+  </form>
+</section>
+
+<!-- footer section -->
+<footer>
+  <div class="footer bg-light py-4 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>サワヤカClinic</h2>
+        </div>
+        <div class="col-lg-2">
+          <h5>メニュー</h5>
+          <ul class="list-unstyled">
+            <li><a href="#services">診療科目</a></li>
+            <li><a href="#about">当院について</a></li>
+            <li><a href="#docter">医師紹介</a></li>
+            <li><a href="#access">交通アクセス</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h5>プライバシーポリシー</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">よくある質問</a></li>
+            <li><a href="#">個人情報保護法</a></li>
+            <li><a href="#">保　　証</a></li>
+            <li><a href="#">製品発送</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h5>所在地</h5>
+          <ul class="list-unstyled">
+            <li>住所：神奈川県横浜市神奈川区二ツ屋町4-7笹部ビル3F</li>
+            <li>e-mail：sawayaka@clinic.com</li>
+            <li>電話番号：0120-123-456</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <script src="../js/clinic.js">
+    </script>
+
+</body>
+</html>

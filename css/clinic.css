@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary:#0d6efd;
+  --dark:#21252f;
+  --body:#888;
+  --box-shadow:0 8px 22px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.7;
+  color: var(--body);
+  background: #b9fbf07a;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-4{
+  color: var(--dark);
+  font-weight: 700;
+}
+
+.nav-link {
+  /* color: #fff !important; */
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 16px;
+}
+
+btn {
+  padding: 14px 18px;
+  border: 2px;
+  border-radius: 0;
+}
+
+.hero {
+  background-image: url("../image/hospital1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(37, 39, 71, 0.2);
+  z-index: -1;
+}
+
+/* service section */
+.card-effect {
+  box-shadow: var(--box-shadow);
+  background-color: #fff;
+  padding: 25px;
+  min-height: 320px;
+  transition: all 0.35s ease;
+}
+
+.card-effect:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.iconbox {
+  width: 54px;
+  height: 54px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: rgb(250, 3, 3);
+  /* background-: var(--primary); */
+  border: 1px blue solid;
+  border-radius: 100px;
+}
+
+.service p {
+  color: #21252f;
+}
+
+.service {
+  position: relative;
+  overflow: hidden;
+}
+
+.service::after {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background-color: var(--primary);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.35s ease;
+}
+
+.service:hover h5,
+.service:hover p {
+  color: #fff;
+}
+
+.service:hover .iconbox {
+  background-color: #fff;
+}
+
+.service:hover::after {
+  opacity: 1;
+  top: 0;
+  z-index: -1;
+}
+
+/* about section */
+#about {
+  padding: 0;
+}
+
+.col-img {
+  background-image: url(../image/docter7.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+/* docter section */
+.docter {
+  position: relative;
+  overflow: hidden;
+}
+
+.docter .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(37, 39, 71, 0.2);
+  padding: 30px;
+  display: flex;
+  align-items: flex-end;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+img {
+  width: 100%;
+}
+
+.docter img{
+  transition: all 0.4s ease;
+}
+
+.docter:hover .overlay {
+  opacity: 1;
+}
+
+.docter:hover img {
+  transform: scale(1.1);
+}
+
+/* access section */
+.accessarea {
+  overflow: hidden;
+}
+
+.time {
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.timezone {
+  writing-mode: tb-rl;
+  padding: 0 30px;
+  border-right:2px solid red;
+  text-align: center;
+}
+
+.time p {
+  min-width: 240px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.time .coll {
+  padding-top: 0;
+}
+
+.googlemap {
+  position: relative;
+  padding-bottom: 75%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.googlemap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* information section */
+#information {
+  padding-bottom: 0;
+}
+
+#information p {
+  padding-top: 10px;
+  color: #21252f;
+}
+
+/* contact section */
+form {
+  justify-content: center;
+}
+form input.form-control {
+  height: 56px;
+}
+form .form-control {
+  border: transparent;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* footer section */
+
+footer {
+  padding: 20px;
+}
+
+.list-unstyled {
+  color: #21252f;
+}

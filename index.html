@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-logo">
+            <img src="image/protfolio.png" alt="My-Portfolio">
+            <a href="#"></a>
+        </h1>
+        <div class="header-nav">
+            <nav>
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a href="#about">about</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#skills">skills</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#works">works</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#contact">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="firstview">
+            <div class="firstview-message">
+                <span class="blue">M</span>y-<span class="blue">P</span>ortfolio
+            </div>
+        </div>
+        <section class="about" id="about">
+            <h2 class="cmn-title">
+                <span class="sub-title">abuot</span>
+                <span class="main-title">私について</span>
+            </h2>
+            <div class="about-wapper">
+                <div class="abuot-image">
+                    <img src="./image/my-photo.jpg" alt="私について">
+                </div>
+                <div class="about-text">
+                    <div class="about-gteeting">
+                        <h3 class="about-subtitle">ご挨拶</h3>
+                        <p class="greeting-desc">
+                            ご訪問いただきありがとうございます。エンジニアとして活動しております室岡靖と申します。<br>
+                            お客様とのコミュニケーションを大切にし、1つ1つの案件を丁寧に作成いたします。
+                        </p>
+                    </div>
+                    <div class="about-career">
+                        <h3 class="about-subtitle">経歴</h3>
+                        <ul class="career-list">
+                            <li class="career-item">・2000年生まれ、静岡県出身</li>
+                            <li class="career-item">・2021年3月、プログラミングの学習の開始</li>
+                            <li class="career-item">・2022年webサイトの初案件獲得</li>
+                            <li class="career-item">・現在はエンジニアとして活動中</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="cmn-title">
+                <span class="sub-title">skills</span>
+                <span class="main-title">使用スキル</span>
+            </h2>
+            <ul class="skill-list">
+                <li class="skill-item">
+                    <div class="skill-image">
+                        <img src="image/logo-html.png" alt="html">
+                    </div>
+                    <h3 class="skill-name">HTML</h3>
+                    <p class="skill-desc">
+                        SEOを意識したコーディングを行い、信頼されるサイトを制作します。
+                    </p>
+                </li>
+                <li class="skill-item">
+                    <div class="skill-image">
+                        <img src="image/logo-css.png" alt="css">
+                    </div>
+                    <h3 class="skill-name">css</h3>
+                    <p class="skill-desc">
+                        誰がみてもわかりやすい。シンプルなマークアップを心がけています。
+                    </p>
+                </li>
+                <li class="skill-item">
+                    <div class="skill-image">
+                        <img src="image/logo-javascript.png" alt="javascript">
+                    </div>
+                    <h3 class="skill-name">Java Script</h3>
+                    <p class="skill-desc">
+                        モダンなアニメーション・動きを、お客様の要望に合わせて実装します。
+                    </p>
+                </li>
+                <li class="skill-item">
+                    <div class="skill-image">
+                        <img src="image/logo-bootstrap.png" alt="bootstrap">
+                    </div>
+                    <h3 class="skill-name">Bootstrap</h3>
+                    <p class="skill-desc">
+                        サイトの用途に合わせて、柔軟にデザイン・レイアウトを構成します。
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="works" id="works">
+            <h2 class="cmn-title">
+                <span class="sub-title">works</span>
+                <span class="main-title">制作実績</span>
+            </h2>
+            <ul class="work-list">
+                <li class="work-item">
+                    <div class="work-image">
+                        <img src="./image/my-portfolio-top.jpg" alt="My-Portfolio">
+                        <a href="#"></a>
+                    </div>
+                    <div class="work-text">
+                        <p class="work-title">タイトル：My Portfolio</p>
+                        <p class="work-skill">使用技術：HTML、CSS、レシポンシブ対応</p>
+                        <p class="work-time">制作時間：約１週間</p>
+                        <p class="work-desc">私のポートフォリオになります。シンプルさと分かりやすさを意識して制作いたしました。</p>
+                    </div>
+                </li>
+                <li class="work-item reverse">
+                    <div class="work-image">
+                        <a href="./pages/salon.html" target="blank">
+                            <img src="./image/beauty-salon.jpg" alt="salon">
+                        </a>
+                    </div>
+                    <div class="work-text">
+                        <p class="work-title">タイトル：サンプル美容院</p>
+                        <p class="work-skill">使用技術：HTML、CSS、Java Script</p>
+                        <p class="work-time">制作時間：約２週間</p>
+                        <p class="work-desc">新規オープンのサロンサイト制作してみました。スライダーを取り入れました。</p>
+                    </div>
+                </li>
+                <li class="work-item">
+                    <div class="work-image">
+                        <a href="./pages/clinic.html">
+                        <img src="./image/clinic-top.jpg" alt="clinic"></a>
+                    </div>
+                    <div class="work-text">
+                        <p class="work-title">タイトル：サンプルクリニック</p>
+                        <p class="work-skill">使用技術：HTML、CSS、Bootstrap</p>
+                        <p class="work-time">制作時間：約３週間</p>
+                        <p class="work-desc">クリニックサイトのリニューアルを制作しました。サンプルテキストサンプルテキスト</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="cmn-title">
+                <span class="sub-title">contact</span>
+                <span class="main-title">お問い合わせ</span>
+            </h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="8dd4167f-ab9e-4655-90d8-b87ce5d97f6c">
+                <div class="contact-item">
+                    <label class="contact-label">お名前</label>
+                    <input type="text" class="inputs" name="name" placeholder="山田　太郎" required>
+                </div>
+                <div class="contact-item">
+                    <label class="contact-label">メールアドレス</label>
+                    <input type="email" class="inputs" name="email" placeholder="sample@sampl.com" required>
+                </div>
+                <div class="contact-item">
+                    <label class="contact-label">ご質問</label>
+                    <textarea class="text" type="text" name="message" placeholder="ご質問はこちらへ入力してください。" required></textarea>
+                </div>
+                <div class="button-area">
+                    <input type="submit" value="質問">
+                    <input type="reset" value="リセット">
+                </div>
+            </form>
+            <div class="icon-area">
+                <a href="https://twitter.com/yasu57641"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav>
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="#about">about</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#skills">skills</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#works">works</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#contact">contact</a>
+                </li>
+            </ul>
+        </nav>
+        <p class="copyright">&copy;2021 My-Portfolio All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
