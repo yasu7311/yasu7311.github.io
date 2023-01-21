@@ -97,39 +97,38 @@ font-weight: bold;
     border-radius: 4px;
   }
 
-  .humburger-menu span:nth-child(1) {
+  .humburger-btn span:nth-child(1) {
     top: 4px;
     transform: none;
   }
 
-  .humburger-menu span:nth-child(2) {
+  .humburger-btn span:nth-child(2) {
     top: 14px;
     opacity: 1;
   }
 
-  .humburger-menu span:nth-child(3) {
-    top: 14px;
+  .humburger-btn span:nth-child(3) {
+    bottom: 4px;
     transform: none;
   }
 
-  
-  .humburger-menu.show span:nth-child(1) {
+  .humburger-btn.show span:nth-child(1) {
     transform: translateY(10px) rotate(-135deg);
   }
 
-  .humburger-menu.show span:nth-child(2) {
+  .humburger-btn.show span:nth-child(2) {
     opacity: 0;
   }
 
-  .humburger-menu.show span:nth-child(3) {
-    transform: translateY(10px) rotate(135deg);
+  .humburger-btn.show span:nth-child(3) {
+    transform: translateY(-10px) rotate(135deg);
   }
 
-  .humburger-menu:hover {
+  .humburger-btn:hover {
     cursor: pointer;
   }
 
-  nav.humburger-menu {
+  .humburger-menu {
     position: fixed;
     top: 80px;
     right: 0;
