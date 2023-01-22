@@ -1,11 +1,11 @@
 //ハンバーガーメニュー
 $(function(){
   $('.humburger-btn').on('click',function(){
-    $('.humburger-btn').toggleClass('show')
-    $('.humburger-menu').toggleClass('show')
+    $('.humburger-btn, .humburger-menu').toggleClass('show')
+    // $('.humburger-menu').toggleClass('show')
   })
   $('.header-item').on('click',function(){
-    $('.humburger-menu').removeClass('show')
+    $('.humburger-btn, .humburger-menu').removeClass('show')
   })
 })
 
