@@ -95,38 +95,38 @@ font-weight: bold;
 
     }
 
-    .humburger-btn.open span:nth-child(1) {
+    .humburger-btn span:nth-child(1) {
         top: 4px;
         transform: none;
     }
 
-    .humburger-btn.open span:nth-child(2) {
+    .humburger-btn span:nth-child(2) {
         top: 14px;
         opacity: 1;
     }
 
-    .humburger-btn.open span:nth-child(3) {
+    .humburger-btn span:nth-child(3) {
         bottom: 4px;
         transform: none;
     }
 
-    .humburger-btn span:nth-child(1) {
+    .humburger-btn.show span:nth-child(1) {
         transform: translateY(10px) rotate(-135deg);
     }
 
-    .humburger-btn span:nth-child(2) {
+    .humburger-btn.show span:nth-child(2) {
         opacity: 0;
     }
 
-    .humburger-btn span:nth-child(3) {
-        transform: translateY(10px) rotate(135deg);
+    .humburger-btn.show span:nth-child(3) {
+        transform: translateY(-10px) rotate(135deg);
     }
 
     .humburger-btn:hover {
         cursor: pointer;
     }
 
-    nav.humburger-menu {
+    .humburger-menu {
         position: fixed;
         top: 80px;
         right: 0;
@@ -139,7 +139,8 @@ font-weight: bold;
 
     .humburger-menu.show {
         display: block;
-        transition: all 2s;
+        transition: all 10s;
+        transform: 0.2s;
     }
 
     .header-list {
@@ -156,6 +157,8 @@ font-weight: bold;
 
     .header-list a:hover {
         cursor: pointer;
+        background-color: #ccc;
+        opacity: 0.8;
     }
 
     .header-item {

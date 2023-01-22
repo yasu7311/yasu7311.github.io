@@ -1,13 +1,13 @@
 //ハンバーガーメニュー
 $(function(){
   $('.humburger-btn').on('click',function(){
-    $('.humburger-btn').toggleClass('open')
+    $('.humburger-btn, .humburger-menu').toggleClass('show')
   })
-  $('.humburger-btn').on('click',function(){
-    $('.humburger-menu').toggleClass('show')
-  })
+  // $('.humburger-btn').on('click',function(){
+  //   $('.humburger-menu').toggleClass('show')
+  // })
   $('.header-item').on('click',function(){
-    $('.humburger-menu').removeClass('show')
+    $('.humburger-btn, .humburger-menu').removeClass('show')
   })
 })
 
