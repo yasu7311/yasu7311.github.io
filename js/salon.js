@@ -27,3 +27,26 @@ $(function(){
     dots:true,
   });
 });
+
+// ページトップ
+
+$(function(){
+  const pageTop = $('#page-top');
+  pageTop.hide();
+  $(window).on('inview',function() {
+    if ($(this).scrollTop() > 100) {
+      pageTop.fadeIn();
+    } else {
+      pageTop.fadeOut();
+    }
+  });
+  pageTop.on('click',function() {
+    $('body,html').animate(
+      {
+        scrollTop:0,
+      },
+      500
+    );
+    return false;
+  });
+});
