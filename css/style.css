@@ -326,6 +326,11 @@ font-weight: bold;
   width: 100%;
 }
 
+.work-image p {
+  margin-top: 10px;
+  text-align: center;
+}
+
 .work-text {
   width: 50%;
   margin-top: 30px;
