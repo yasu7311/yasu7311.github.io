@@ -70,14 +70,14 @@ font-weight: bold;
       padding: 20px 0;
   }
 
-  .humburger-btn{
+  .hamburger-btn{
     position: relative;
     display: block;
     width: 30px;
     height: 30px;
   }
 
-  .humburger-btn.show span {
+  .hamburger-btn.show span {
     position: absolute;
     display: block;
     width: 30px;
@@ -87,7 +87,7 @@ font-weight: bold;
     border-radius: 4px;
   }
 
-  .humburger-btn span {
+  .hamburger-btn span {
     position: absolute;
     display: block;
     width: 30px;
@@ -97,38 +97,38 @@ font-weight: bold;
     border-radius: 4px;
   }
 
-  .humburger-btn span:nth-child(1) {
+  .hamburger-btn span:nth-child(1) {
     top: 4px;
     transform: none;
   }
 
-  .humburger-btn span:nth-child(2) {
+  .hamburger-btn span:nth-child(2) {
     top: 14px;
     opacity: 1;
   }
 
-  .humburger-btn span:nth-child(3) {
+  .hamburger-btn span:nth-child(3) {
     bottom: 4px;
     transform: none;
   }
 
-  .humburger-btn.show span:nth-child(1) {
+  .hamburger-btn.show span:nth-child(1) {
     transform: translateY(10px) rotate(-135deg);
   }
 
-  .humburger-btn.show span:nth-child(2) {
+  .hamburger-btn.show span:nth-child(2) {
     opacity: 0;
   }
 
-  .humburger-btn.show span:nth-child(3) {
+  .hamburger-btn.show span:nth-child(3) {
     transform: translateY(-10px) rotate(135deg);
   }
 
-  .humburger-btn:hover {
+  .hamburger-btn:hover {
     cursor: pointer;
   }
 
-  .humburger-menu {
+  .hamburger-menu {
     position: fixed;
     top: 80px;
     right: 0;
@@ -139,7 +139,7 @@ font-weight: bold;
     display: none;
   }
 
-  .humburger-menu.show {
+  .hamburger-menu.show {
     display: block;
     transition: all 2s;
   }
