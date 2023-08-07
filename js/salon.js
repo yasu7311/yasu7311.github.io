@@ -33,7 +33,7 @@ $(function(){
 $(function(){
   const pageTop = $('#page-top');
   pageTop.hide();
-  $(window).on('inview',function() {
+  $(window).on('submit',function() {
     if ($(this).scrollTop() > 100) {
       pageTop.fadeIn();
     } else {
@@ -41,12 +41,7 @@ $(function(){
     }
   });
   pageTop.on('click',function() {
-    $('body,html').animate(
-      {
-        scrollTop:0,
-      },
-      500
-    );
+    $('body,html').animate( {scrollTop:0},500);
     return false;
   });
 });
