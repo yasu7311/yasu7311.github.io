@@ -171,7 +171,7 @@ font-weight: bold;
 /* firstview */
 
 .firstview {
-  background-image: url(../image/first-view.jpg);
+  background-image: url(../image/first-view.webp);
   background-size: cover;
   background-position: center;
   width: 95%;
