@@ -2,7 +2,6 @@
 $(function(){
   $('.hamburger-btn').on('click',function(){
     $('.hamburger-btn, .hamburger-menu').toggleClass('show')
-    // $('.hamburger-menu').toggleClass('show')
   });
   $('.header-item').on('click',function(){
     $('.hamburger-btn, .hamburger-menu').removeClass('show')
