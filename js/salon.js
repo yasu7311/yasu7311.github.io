@@ -17,8 +17,8 @@ $(function () {
     $(this).addClass('fadeIn');
   })
  })
-// スライダー
 
+// スライダー
 $(function(){
   $('.slider').slick({
     autoplay:true,
