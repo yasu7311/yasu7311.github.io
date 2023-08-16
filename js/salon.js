@@ -25,6 +25,7 @@ $(function(){
     autoplaySpeed:8000,
     speed:1500,
     dots:true,
+    arrows:false,
   });
 });
 
