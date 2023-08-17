@@ -182,7 +182,7 @@ font-weight: bold;
 .firstview-message {
   display: flex;
   align-items: flex-end;
-  font-size: 90px;
+  font-size: 5.625rem;
   height: 100%;
   letter-spacing: 0.05em;
 }
@@ -193,7 +193,7 @@ font-weight: bold;
 
 @media (max-width:599px) {
   .firstview-message {
-      font-size: 60px;
+      font-size: 3.75rem;
       letter-spacing: 0.03em;
   }
 }
@@ -227,7 +227,7 @@ font-weight: bold;
 }
 
 .about-subtitle {
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: #38b6ff;
   margin-bottom: 10px;
 }
@@ -267,7 +267,7 @@ font-weight: bold;
 }
 
 .skill-name {
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: bold;
   text-align: center;
 }
@@ -381,7 +381,7 @@ font-weight: bold;
 form {
   max-width: 600px;
   margin: 50px auto 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
@@ -406,7 +406,7 @@ input[type="email"] {
   border: solid 1px #aaa;
   width: 90%;
   padding: 10px;
-  font-size: 15px;
+  font-size: 0.9375rem;
   border-radius: 5px;
 }
 
@@ -415,7 +415,7 @@ textarea {
   padding: 10px;
   height: 160px;
   width: 90%;
-  font-size: 15px;
+  font-size: 0.9375rem;
   border-radius: 5px;
   display: table-cell;
   vertical-align:top;
@@ -430,7 +430,7 @@ input[type="submit"] {
   border: none;
   padding: 10px 20px;
   color: #fff;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: bold;
   border-radius: 5px;
   margin: 0 5px;
@@ -443,7 +443,7 @@ input[type="reset"] {
   border: none;
   padding: 10px 20px;
   color: #fff;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: bold;
   border-radius: 5px;
   margin: 0 5px;
