@@ -256,14 +256,22 @@ font-weight: bold;
 
 .skill-list {
   margin-top: 60px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   gap: 40px 20px;
 }
 
+.skill-item {
+  display: flex;
+}
+
 .skill-image {
-  height: 180px;
+  height: 80px;
   text-align: center;
+}
+
+.skill-image img {
+  height: 80px;
 }
 
 .skill-name {
