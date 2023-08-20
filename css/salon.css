@@ -267,7 +267,7 @@ button {
 }
 
 .slick-next:before {
-    background-image: url(../image/button-right.jpeg);
+    background-image: url(../image/button-right.webp);
     background-size: contain!important;
 }
 
