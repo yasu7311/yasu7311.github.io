@@ -175,7 +175,7 @@ font-weight: bold;
 }
 
 .firstview {
-    background-image: url(../image/beauty1.jpg);
+    background-image: url(../image/beauty1.webp);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -199,7 +199,7 @@ font-weight: bold;
 }
 
 .beauty1 {
-    background-image: url(../image/beauty5.jpg);
+    background-image: url(../image/beauty5.webp);
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -208,7 +208,7 @@ font-weight: bold;
 }
 
 .beauty2 {
-    background-image: url(../image/beauty3.jpg);
+    background-image: url(../image/beauty3.webp);
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -216,7 +216,7 @@ font-weight: bold;
     z-index: 1;
 }
 .beauty3 {
-    background-image: url(../image/beauty8.jpg);
+    background-image: url(../image/beauty8.webp);
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -272,7 +272,7 @@ button {
 }
 
 .slick-prev:before {
-    background-image: url(../image/button-left.jpeg);
+    background-image: url(../image/button-left.webp);
     background-size: contain!important;
 }
 
