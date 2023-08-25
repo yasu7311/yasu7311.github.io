@@ -12,11 +12,11 @@ $(function(){
 })
 
 //フェードイン
-$(function () {
-  $('.skill-text,.service-item').on('inview',function(){
-    $(this).addClass('fadeIn');
-  })
- })
+// $(function () {
+//   $('.skill-text,.service-item').on('inview',function(){
+//     $(this).addClass('fadeIn');
+//   })
+//  })
 
 // スライダー
 $(function(){
@@ -25,7 +25,7 @@ $(function(){
     autoplaySpeed:8000,
     speed:1500,
     dots:true,
-    arrows:false,
+    arrows:true,
   });
 });
 

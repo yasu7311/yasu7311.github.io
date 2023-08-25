@@ -247,15 +247,16 @@ font-weight: bold;
 }
 
 button {
-    width: 80px;
-    height: 80px;
+    /* display: block; */
+    width: 8px;
+    height: 8px;
     margin: 0 30px;
     z-index: 10;
 }
 
-.slick-arrow:before {
+/* .slick-arrow:before {
     content:""!important;
-}
+} */
 
 .slick-arrow:before {
     content:""!important;
@@ -267,12 +268,14 @@ button {
 }
 
 .slick-next:before {
-    background-image: url(../image/button-right.webp);
+    content:""!important;
+    background-image: url(../image/button-right.jpeg);
     background-size: contain!important;
 }
 
 .slick-prev:before {
-    background-image: url(../image/button-left.webp);
+    content:""!important;
+    background-image: url(../image/button-left.jpeg);
     background-size: contain!important;
 }
 
