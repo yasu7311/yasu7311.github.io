@@ -248,9 +248,10 @@ font-weight: bold;
 
 button {
     /* display: block; */
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     margin: 0 30px;
+    /* border-radius: 50%; */
     z-index: 10;
 }
 
@@ -265,17 +266,18 @@ button {
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 50%;
 }
 
 .slick-next:before {
     content:""!important;
-    background-image: url(../image/button-right.jpeg);
+    background-image: url(../image/button-right.webp);
     background-size: contain!important;
 }
 
 .slick-prev:before {
     content:""!important;
-    background-image: url(../image/button-left.jpeg);
+    background-image: url(../image/button-left.webp);
     background-size: contain!important;
 }
 
