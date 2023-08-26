@@ -247,11 +247,9 @@ font-weight: bold;
 }
 
 button {
-    /* display: block; */
     width: 10px;
     height: 10px;
     margin: 0 30px;
-    /* border-radius: 50%; */
     z-index: 10;
 }
 
