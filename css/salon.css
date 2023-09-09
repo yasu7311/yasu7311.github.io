@@ -253,10 +253,6 @@ button {
     z-index: 10;
 }
 
-/* .slick-arrow:before {
-    content:""!important;
-} */
-
 .slick-arrow:before {
     content:""!important;
     width: 100%!important;
